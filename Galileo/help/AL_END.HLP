@@ -1,0 +1,7 @@
+
+
+     Enter the last column the variable is coded in.  For example if zip
+     code was entered in columns 23 to 27, and you wanted to split on
+     zip code, you would enter 27.
+
+

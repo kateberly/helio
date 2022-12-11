@@ -1,0 +1,11 @@
+
+      I work by sweeping a moving window through the text. You tell me how
+      many words should be in the window. If you say 5, for example, I read
+      words 1 through 5, then words 2 through 6, then words 3 through 7, and
+      so on until I've read all the words. Ibase my judgments about how words
+      go together on the way they occur together in windows.
+
+      No one knows much about how wide the window ought to be. The denser
+      the data, the smaller a window you can use.  Experiment!
+
+

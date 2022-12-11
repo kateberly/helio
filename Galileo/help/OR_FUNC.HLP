@@ -1,0 +1,11 @@
+
+     In the simplest case, neurons can simply add up inputs and activate
+     if the sum exceeds a given threshhold.  More commonly, however,
+     artificial systems tend to use a somewhat smoother function, usually
+     some kind of logistic or hyperbolic tangent function.  The simple
+     linear step function is shaped like a step; these smoother functions
+     are shaped like integral signs.  Different functions give slightly
+     different shapes to the form.  You can experiment by selecting from
+     the four most common functions if you say 'yes' here.
+
+

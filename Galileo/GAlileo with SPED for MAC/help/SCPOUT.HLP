@@ -1,0 +1,6 @@
+
+     Please tell me the path to a file on which you'd like me to write
+     the centroid scalar products matrix. If the file doesn't exist, I'll
+     create it.  If it does, I'll write over it.
+
+

@@ -1,0 +1,16 @@
+
+      Most perceptual mapping systems measure only a few of the relation-
+      ships among the objects and attributes scaled, and estimate the
+      relationships among the rest. Galileo(tm) procedures, however,
+      have always measured ALL these relationships and estimated none
+      of them. Only when all relationships have been measured is the
+      result a "real" Galileo. If your input data came from MICROGAL,
+      CATPAC, V55 or ORESEME, you can make a real Galileo. If you have
+      less complete, more common data, such as the ratings of items on
+      attribute scales, you can make a conventional perceptual map. It
+      won't be as good as a Galileo, but it will be as good as conventional
+      perceptual maps, because it is identical to the algorithm used in some
+      of the most popular perceptual mapping programs. It can also make
+      maps equivalent to correspondence analysis.
+
+

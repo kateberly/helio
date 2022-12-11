@@ -1,0 +1,67 @@
+I will cluster words (or any other symbols,
+for that matter) based on their frequency
+of coocurrence in a window which moves
+across any arbitrary ASCII text.  You may
+set the size of the window (7 is a good
+starting default) and the size of the slide
+(1 is recommended).  You might change these
+parameters depending on the particular
+nature of your problem or because the
+number of words you need to analyze exceeds
+the capacity of the program at this setting.
+I can also cluster words on a case by case
+basis.  To do this separate each case with
+a -1 on a separate line between each case.
+
+My more useful analysis allows me analyze
+the text with a neural network algorithm.
+This analysis will yield a more 'human'
+result as I look for recurrent patterns
+much in the same way the human brain does.
+There are a number of settings you can
+control.  Run the program and press F3 for
+help on any parameter to familiarize
+yourself with what each does.
+
+My most simple analysis allows me to give
+you a simple frequency count of all the
+words in your data set.  This is useful
+for developing additional analysis
+strategies.
+
+I can also psychoanalyze your data.  Well
+I can at least locate all self-reference
+words or pre-determined id's.  This allows
+you to locate the 'cloud' of self-points or
+id-points of any given data set.  PLOT will
+locate these points as a cloud of pixels in
+the display.  Knowing where the respondents
+are relative to the rest of the concepts in
+your data set can be very useful.
+
+I can  automatically exclude from
+consideration any arbitrary list of words.
+A default list is included in the file
+EXCLUDE.DAT.  You can add or delete words
+by using any ASCII text editor. You may
+also develop any number of your own exclude
+files for different runs and I suggest
+that you do.
+
+I will also include any words you may wish
+to use.  Since I cannot look at all the
+words in your data set, you have tell me
+the number of unique words you would like
+to analyze.  After I have ignored all words
+below that number, I can add back any words
+you specifically want to look at.
+Typically these words might be product
+names or specific attributes.
+
+I expect to see myself and all my support
+files in directories created for you when
+you installed me.  This directory  is
+called \GALILEO\RUNNER.  Do not alter the
+location of any installed files or
+programs, or they may not work properly.
+

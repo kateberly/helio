@@ -1,0 +1,33 @@
+
+
+
+                            Galileo*ASG
+
+
+
+      I'm the Automated Strategy Generator (ASG). I can read Galileo
+      Coordinates made by Microgal, V55, or Galnet, and calculate the
+      likely effects of every possible strategy for repositioning any
+      concept in the Galileo space. In doing this, I follow the theory
+      of Woelfel and Fink, The Measurement of Communication Processes:
+      Galileo Theory and Method, Academic Press, New York, 1980.
+
+      Unlike the model in V55, I provide weighted strategies; that is,
+      I can tell you my best guess as to how much to emphasize each
+      element of a strategy. I can even consider negative strategies
+      (such as "I am not a crook") and mixed strategies, such as
+      "Luxurious, but not expensive." To be candid, however, the
+      practical differences between weighted strategies and unweighted
+      strategies is fairly small relative to today's (1991) ability
+      to measure. Improved measurement precision (sure to come) will
+      make these differences crucial, however, so it's not OK to put
+      the question out of mind.
+
+      I can only make strategies if I know what your goals are, though,
+      and I'll ask you a series of questions to find out what you want
+      to accomplish. If you don't know what to do at any point, just
+      enter a '?'.
+
+        *** Online help is currently not available for ASG ***
+
+

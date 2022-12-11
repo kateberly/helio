@@ -1,0 +1,25 @@
+
+     ELQM will ask many questions pertaining to the content of your study.
+     There are two ways you can enter information: interactively and with
+     and input file.
+
+     An interactive session with ELQM consists of answering many questions
+     pertaining to your study.  Such as who is the project supervisor, where
+     the study directory is and what each of your demographic questions is.
+
+     For Galileo studies with few demographics, an interactive session will
+     usually work out okay.  If you make a mistake, however, you will have
+     to re-enter all the data.  For any but the smallest studies, it is
+     recommended that you use the input file method.
+
+     An input file is a standard ASCII file that lists, in order, all of
+     the information that ELQM needs to build a study element.  Each response
+     is given it's own line.  If you make an input file, you will be able to
+     make sure that all of the information you give ELQM is correct.
+
+     The best way to make a study element is to run ELQM several time to
+     become familiar with the questions asked, and the order they are asked.
+     Then, simply create an input file listing the answers to the questions
+     in the order they are asked.
+
+

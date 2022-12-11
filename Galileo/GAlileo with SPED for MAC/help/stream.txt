@@ -1,0 +1,5 @@
+Hi, I'm Galileo Version 5.7. I'm a complicated program, and
+require extensive instructions. These are pre-recorded in 
+a file by INTERGAL. You need to tell me the name and location
+of that file.If you haven’t already done so, go back and run
+INTERGAL and create the run stream file.

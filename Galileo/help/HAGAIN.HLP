@@ -1,0 +1,4 @@
+      PLOT is asking if you want to make another plot. Say yes to make
+      another plot with the same configuration (i.e., size, apsect,
+      rotation, etc.) as this plot; to start from scratch, say "no" and
+      run PLOT again.

@@ -1,0 +1,40 @@
+                               BALLOT
+
+
+
+              I am a variation of TABLES. I'm particularly
+        useful when the topic you are studying involves discrete
+        choices. Elections are examples of discrete choices,
+        since voters may either vote for a candidate or not.
+        Expensive products such as automobiles usually may be
+        considered discrete choices as well, but inexpensive
+        products typically are not, since you can buy variable
+        quantities of them.
+
+              I make the same inquiries as TABLES: I ask how
+        many concepts there are, on what file the concept names
+        or labels are to be found, whether or not you want a
+        logarithmic transformation of the data, what the name
+        of your data segment is (this becomes the title of your
+        table), where your data (in standard GALILEO raw data
+        format) may be found, and on what file you'd like the
+        output written.
+
+
+              I also ask you to identify several "candidates" or products 
+        and a "self-concept", which represents a self-point or ideal point.
+
+              I then divide up the cases into four piles: the
+        first pile contains those cases closer to the first
+        candidate or product; the second contains those closer
+        to the second candidate or product; the third contains
+        those equidistant from both candidates or products
+        (the "undecided"), and the fourth contains those for
+        which the crucial data is missing.
+
+        The results are displayed on the screen and written to
+        the file you named in a standard ASCII format ready to
+        print.
+
+
+

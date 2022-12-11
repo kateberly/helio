@@ -1,0 +1,19 @@
+
+     When you generate message strategies, you must tell me the
+     concept(s) or number(s) of the concept(s) you wish to use.
+     There are three sets of concept(s) you must give me.  The first
+     is the Start concept(s).  This is the set of concept(s) you wish
+     to move.  The second is the Target concept(s).  These are the
+     concept(s) you wish to move to.  Last, I'll need the Message
+     concept(s).  These are the concept(s) that make up the message
+     you are testing.
+
+     I can determine the effectiveness of any message strategy
+     you may wish to test.  If you test more than one I can even
+     be relative.  Once you give me the Start, Target, and Message
+     concept(s), I'll figure out the distance from the the Start
+     to the Target, and what the distance will be after you execute
+     the message you have chosen.  Don't forget, ASG and V55 will
+     automatically determine the most effective messages for you.
+     You may wish to try them out here to get a 'picture' of what
+     those strategies may look like.

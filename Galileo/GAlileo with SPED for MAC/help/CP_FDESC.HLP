@@ -1,0 +1,22 @@
+I will automatically make all needed output
+files for you, but you need to tell me some
+generic name for all files.  I'll attach the
+appropriate extension (.win, .cat, etc.) to the
+files, but you should provide a single word that
+summarizes what the topic is all about.
+
+If you thought the study was about cars, for
+example, you could enter "cars", and I would
+make the appropriate output files: "cars.win"
+which consists of the network learned; 
+"cars.lbl" which contains each of the words used
+in the analysis; "cars.cat', which contains a
+summary of your run parameters, an alphabetic
+and descending frequency listing of the words in
+your analysis, and a dendogram graphically
+depicting the connection between the words;
+finally I'll make "cars.crd" a file used by
+Plot.
+
+It’s usually more convenient for later analysis
+if the names of your files are short.

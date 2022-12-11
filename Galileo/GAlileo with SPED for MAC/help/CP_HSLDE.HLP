@@ -1,0 +1,7 @@
+Under normal circumstances, the moving window
+slides through the text one position at a time;
+that is, I read words 1 through n, 2 through
+n+1, 3 through n+2, and so forth.  But for very
+large texts, you may wish to sample windows, and
+so you could name a fairly large slide value. 
+Experiment!

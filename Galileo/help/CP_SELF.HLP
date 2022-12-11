@@ -1,0 +1,6 @@
+A self-analysis will allow you to identify
+self-references or predetermined id's within
+your data set.  These points will be plotted as
+a cloud using plot.  This  option allows you to
+determine the rough boundary and location of the
+self-point of the text.

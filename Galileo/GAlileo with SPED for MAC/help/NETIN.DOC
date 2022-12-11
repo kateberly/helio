@@ -1,0 +1,26 @@
+
+
+
+                             Galileo*NETIN
+
+
+      Perhaps the most important mathematical form in all multivariate
+      analysis is the square matrix. I'm a simple utility that allows
+      you to enter any arbitrary square matrix and normalize it in one
+      or more useful ways.
+
+      I'm called NETIN because the most general theoretical form that
+      is used to describe such matrices is network. Each row or column
+      of the network is called a node, and the cell entries represent
+      the relationships (or connections or weights) among the nodes.
+
+      I was created originally to deal with switching data, such as
+      brand loyalty and the like. There are two kinds of switching data:
+      loyalty and source of sales. Loyalty data tells the percentage of
+      users of brand x that switch to brands y, z, and so forth. Source
+      of sales data tells the percentage of those who switch to brand x
+      that come from brands y, z and so on. I can make either type for
+      you, but it's up to you to know which kind you want.
+
+
+

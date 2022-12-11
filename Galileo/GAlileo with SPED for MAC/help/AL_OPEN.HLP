@@ -1,0 +1,19 @@
+     I can split on text files, but the data have to be in a specific
+     format.  The first line of each case must be the numeric
+     information you wish to split on, then as many lines of text as
+     you like.  The last line of each case must have a -1 in columns
+     1 and 2.  For example:
+
+     123456
+     this is the first case
+     -1
+     123457
+     this is the next case
+     it has two lines
+     123458
+     this is the last case
+     -1
+
+     If you used SPED to enter your data, the files will already be in
+     this format.
+

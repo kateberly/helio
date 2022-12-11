@@ -1,0 +1,14 @@
+
+
+     The mirror image of a space has exactly the same distance relations
+     as the original space. No multidimensional scaling program -- not
+     even this one -- can tell which version you prefer. For some abstract
+     spaces, this makes no difference, but when comparing one space with
+     another, any reflections will make them appear different even though
+     they may be the same. If you suspect that a dimension has been reflected
+     (a 50-50 chance, by the way) you can reflect it back by pressing "r".
+     I'll then ask you which dimension you want to reflect; just respond
+     with the number (either 1,2, or 3).
+
+
+

@@ -1,0 +1,41 @@
+
+      Just tell me the path to the file where your data reside. I expect these
+      data to be in a special format. The first five columns of each row
+      are set aside for the case identification number, which you make up.
+      Columns six and seven are set aside for the row number (sometimes
+      called "card number" for ancient historical reasons!) within each
+      case. Next are eight fields of (2I2,F5.0). The two I2 fields contain
+      the concept number of each concept; the F5.0 contains the distance
+      between those two concepts. Because of this special coding system,
+      Galileo datasets can be scrambled randomly and they will still work.
+      Moreover, not all data needs to be collected from each case; you
+      can administer ANY SUBSET of a questionnaire to each respondent.
+
+      Pay no attention to how complicated this seems. ELQM and SPED take care
+      of all this automatically, and you don't need to know about it unless
+      you are an extreme expert (or a true fussbudget.)
+
+     
+
+ 343135010102   100103   100104   280105   280106   300107   100108   620109   25
+ 343135020110   340111   410112   420113   580114   610115   520116    10117   31
+ 343135030118   190203   680204   510205   410206   440207    90208   990209   25
+ 343135040210   310211   340212   250213   490214   410215   380216   290217   42
+ 343135050218    80304   190305   210306   380307   480308   100309   380310   38
+ 343135060311   410312   420313   320314   460315   470316   480317   490318   62
+ 343135070405   150406   140407   260408   390409   380410   120411   410412   38
+ 343135080413   290414   310415   320416   300417   330418   330506   100507   80
+ 343135090508   120509   390510    80511   370512   270513   220514   280515   34
+ 343135100516   390517   390518   210607   560608   240609  1800610   100611   64
+ 343135110612   360613   290614   340615   320616   330617   310618   310708   92
+ 343135120709   940710   930711   960712   870713  1080714   900715   960716   82
+ 343135130717  1030718    30809   270810   210811   890812   720813   310814   47
+
+
+     
+
+
+
+
+
+

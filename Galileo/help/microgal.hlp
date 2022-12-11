@@ -1,0 +1,42 @@
+
+
+
+                              GALILEO*MICROGAL
+
+
+        I am the PC version of the mainframe Galileo
+        computer program. I expect to read raw data in standard
+        Galileo paired comparison format, and calculate the coor-
+        dinates of the concepts in Galileo space. These coordinates
+        may be plotted to produce a graphic picture of the data, or
+        they may serve as input to other Galileo programs, such as
+        Strategy and Compare.
+
+        I also calculate the standard error for each of the
+        points. These standard errors can serve as an estimate of
+        the uncertaintly around the location of the points. In
+        graphic representations, the standard error or some multiple
+        usually serves as the diameter of the circle or sphere
+        which represents the concept in Galileo space. If all
+        standard sampling distribution assumptions are correct
+        (which, of course, they never are) there will be about a
+        67% likelihood that the concept is actually located within
+        plus or minus one standard error of the location given
+        by its Galileo coordinates.
+
+        I ask for the number of concepts, the maximum
+        value above which it will ignore data, the location of
+        the labels file (the file were the names of the concepts
+        are kept), the name (and complete path) of the file
+        where the data are kept. I will also ask whether a
+        logarithmic transformation of the data are desired,
+        and what you want to name the output file and the
+        coordinates file. The output file is the place where an
+        output file suitable for printing is written, and the
+        coordinates file is where coordinates for plotting or
+        input into other Galileo programs are stored. You
+        should supply the complete path for each of these
+        files, otherwise I will write them into your
+        current directory.
+
+ 

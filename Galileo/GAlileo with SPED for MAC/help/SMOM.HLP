@@ -1,0 +1,12 @@
+
+     I work by a trial and error process; changing the connections among
+     my neurons, checking to see if I'm closer to the right answer, then
+     changing them again. Sometimes I get "trapped" and change them back
+     and forth over and over. I can usually overcome this by preventing
+     myself from chaning too radically in a single step. I do this by adding
+     a part of my old connection strengths to my new connection strengths.
+     This is called "momentum", since, like momentum, it means my future is
+     influenced by my past. Default momentum in .6 (60%) of my old strengths
+     added to my new ones.
+
+

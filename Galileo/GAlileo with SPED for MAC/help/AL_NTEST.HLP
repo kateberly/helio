@@ -1,0 +1,8 @@
+
+     After you have decided to split on values or ranges, I'll need to know
+     how many values or ranges you wish to test.  Using age as an example, if
+     you wished to split for 3 specific age values: 21, 24, and 35, you would
+     enter 3.  If you choose to split on ranges and wished to test two
+     ranges: 18-25 and 26-35, you would enter 2.
+
+

@@ -1,0 +1,26 @@
+
+
+
+                           Galileo*SWITCH
+
+
+
+      I can project future sales and installed base from loyalty data. By
+      loyalty data I mean a square products X products matrix whose entries
+      give the percentage of those who use product x that switch to product
+      y during the period the matrix represents.
+
+      I also need to know the percentage of the entire installed base that
+      is represented by each of the products in the matrix, the percentage
+      of each of the products that is traded during the period, and the rate
+      at which each product (or its users) goes out of service during the
+      period. (A car which has gone to the junk yard, for example, can't be
+      traded in.)
+
+      As you go through the program, I can help you with files, formats and
+      the like. Just enter '?' whenever you don't know what to do next.
+      By the way, NETIN is just the ticket for making the loyalty matrix
+      I need.  Tell NETIN that FORECAST sent you!
+
+
+

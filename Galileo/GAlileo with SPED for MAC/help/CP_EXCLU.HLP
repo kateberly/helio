@@ -1,0 +1,7 @@
+I will exclude words from analysis that are
+listed in the file:
+
+Applications/catpac/exclude.dat. 
+
+You may wish to edit the exclude 
+files for different runs.  

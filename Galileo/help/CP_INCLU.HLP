@@ -1,0 +1,17 @@
+Just as you may wish to exclude certain words
+from a particular run you may wish to include
+certain words.  CATPAC will ignore words that
+are stripped based on the number of unique words
+you specify.  If you want some of these words
+included anyway, create an include file that
+lists them one word to a line.
+
+The include file is also used to locate
+self-reference words.  If you do a 'Zelf
+analysis' by self-points,  you can locate
+self-points by selecting a self-reference
+include file that lists each word you wish to
+use as a self-reference one word to a line.
+
+If you do not specify an include file, I will
+assume you do not wish to use one.

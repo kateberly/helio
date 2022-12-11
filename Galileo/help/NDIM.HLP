@@ -1,0 +1,9 @@
+
+      Any n points can lie in at most n-1 dimensions. Similarly, n attributes
+      can define a space of at most n-1 dimensions. That doesn't mean there
+      are always that many, but that there can never be more than that.
+      How many there are, you will find out by this analysis.
+
+      Please tell me the largest number of dimensions you're willing to
+      look at. (Asking for more has no ill effects, but takes a little
+      longer.)

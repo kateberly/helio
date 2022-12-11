@@ -1,0 +1,12 @@
+
+     Rotation of spaces is extremely important in making meaningful comparisons
+     between data sets.  Rotation tends to reduce spurious differences between
+     data sets.
+
+     V57 offers two comparison types.  The first is a
+     time-series comparison.  A time-series comparison will rotate each space
+     to the space before it.  This type of rotation will more accurately
+     account for changes in the relationships among concepts over time.
+
+
+

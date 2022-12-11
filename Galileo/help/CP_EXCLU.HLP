@@ -1,0 +1,10 @@
+I will exclude words from analysis that are
+listed in the file:
+
+\galileo\runner\exclude.dat. 
+
+You may wish to create your own exclude 
+files for different runs.  If you so, 
+enter the name of the exclude file you 
+want to use or I will use the default 
+displayed.

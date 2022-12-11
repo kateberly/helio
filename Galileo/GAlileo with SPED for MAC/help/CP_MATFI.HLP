@@ -1,0 +1,5 @@
+I will report all pairs of words along 
+with a count of the number of times they
+co-occured in your data set.  I need to 
+know the name of a file to store your 
+co-occurance output.

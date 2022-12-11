@@ -1,0 +1,15 @@
+
+
+      Like a biological neuron, each of my neurons receives inputs from
+      the environment and/or other active neurons. I add these up, and,
+      if they exceed a given threshhold, are activated. Increasing my
+      threshhold decreases my sensitivity; decreasing it makes me respond
+      to subtler stimuli. For the 0-1 logistic, my default threshhold is
+      .5, for all others it is zero.
+
+       Now you need to enter a number (between 0 and 1 for the 0-1 logistic;
+       between -1 and +1 for the others) that will serve as my threshhold.
+
+
+
+

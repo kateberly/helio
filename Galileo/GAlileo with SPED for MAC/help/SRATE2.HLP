@@ -1,0 +1,12 @@
+
+     I can learn faster or slower at your command. My default rate of
+     learning is 1.0. If you raise this rate, I learn faster, but may
+     oscillate. If you lower it, I'm a surer learner, but it takes more
+     time.
+
+     Now you need to enter a number greater than zero. (No one knows the
+     optimal rate, and perhaps different rates are better for different
+     problems, which is likely. Experiment!)
+
+
+

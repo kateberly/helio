@@ -1,0 +1,7 @@
+From the synaptic connections in the neural network computed by 
+Catpac, I'm able to generate distances among concepts and array
+them in space. Space, along with time, is fundamental to science
+and engineering, since all the variables in science are derived
+from distance and time. Once I construct the spatial manifold, 
+Strategy can use it to calculate the projected effects of every
+possible combination of messaging strategies. 

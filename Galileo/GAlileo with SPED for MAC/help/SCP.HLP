@@ -1,0 +1,13 @@
+
+      An intermediary mathematical form that must be made to create a
+      Galileo space is the centroid scalar product matrix described
+      by Torgerson (1958). This matrix may be used as input by other
+      GALILEO programs, such as ORESEME. It may be thought of as the
+      matrix of connection weights in a neural network in which each
+      neuron represents one of the concepts.
+
+      You could think of it as an unstandardized covariance matrix, and
+      use it in other statistical packages for whatever analyses you find
+      informative.
+
+

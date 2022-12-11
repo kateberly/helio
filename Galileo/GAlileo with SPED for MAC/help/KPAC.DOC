@@ -1,0 +1,30 @@
+
+
+
+                               Galileo*KIT
+
+
+
+      I'm a self-organizing neural network optimized to read and understand
+      text. I can read any ASCII text and determine its underlying conceptual
+      structure. Technically this means that I can learn the patterns of
+      association among the various words in the text, and perform a diameter
+      method hierarchical cluster analysis of these relations.
+
+      I also write out the matrix of interrelations in a file with the
+      appendix .win (weight input network). This square matrix represents
+      the pattern of interrelationships among the top N words in the text
+      (you have to tell me what N you desire). You can input this matrix
+      to other programs (such as your favorite statistics package), or to
+      other neural networks, particularly ORESEME.
+
+      Another interesting use of the .win matrix is to give it to GALNET,
+      who makes it into Galileo coordinates. These can then be plotted
+      by PLOT. Perceptual maps from text is a Galileo exclusive! (You not
+      only saw it here first, you can't see it anywhere else!)
+
+
+          *** Online help is currently not available for Kit. ***
+
+
+

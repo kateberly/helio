@@ -1,0 +1,529 @@
+                   STANDARD ERRORS OF DIFFERENCES (Z-SCORES)
+
+
+Run Name: name                                                                  
+
+
+Objects: HONDA ACCORD        
+         MAZDA 626           
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             1.35 S
+                        FUN TO DRIVE                .76  
+                        FAMILY CAR                 -.93  
+                        GOOD VALUE                -1.25  
+                        PRACTICAL                  -.47  
+                        AFFORDABLE                 -.45  
+                        EXCITING                   1.33 S
+                        APPEALS TO OLDER PEO      -1.33 S
+                        LUXURIOUS                  1.32 S
+                        RELIABLE                   -.78  
+                        HONDA ACCORD              -4.37 S
+                        MAZDA 626                  4.37 S
+                        FORD TEMPO                 -.33  
+                        TOYOTA CAMRY               -.26  
+                        NISSAN STANZA              -.59  
+                        CHRYSLER LEBARON GTS       -.48  
+                        PONTIAC GRAND AM            .53  
+                        YOURSELF                    .09  
+
+
+Objects: HONDA ACCORD        
+         FORD TEMPO          
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING              .17  
+                        FUN TO DRIVE               -.36  
+                        FAMILY CAR                 1.15  
+                        GOOD VALUE                -1.26  
+                        PRACTICAL                  1.35 S
+                        AFFORDABLE                  .18  
+                        EXCITING                   -.56  
+                        APPEALS TO OLDER PEO       1.14  
+                        LUXURIOUS                   .02  
+                        RELIABLE                  -1.76 S
+                        HONDA ACCORD              -3.24 S
+                        MAZDA 626                  -.73  
+                        FORD TEMPO                 3.24 S
+                        TOYOTA CAMRY               -.09  
+                        NISSAN STANZA              -.46  
+                        CHRYSLER LEBARON GTS        .21  
+                        PONTIAC GRAND AM            .07  
+                        YOURSELF                    .01  
+
+
+Objects: MAZDA 626           
+         FORD TEMPO          
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING            -2.17 S
+                        FUN TO DRIVE              -1.51 S
+                        FAMILY CAR                 2.03 S
+                        GOOD VALUE                 -.06  
+                        PRACTICAL                  1.88 S
+                        AFFORDABLE                  .98  
+                        EXCITING                  -2.13 S
+                        APPEALS TO OLDER PEO       2.10 S
+                        LUXURIOUS                 -1.32 S
+                        RELIABLE                  -1.36 S
+                        HONDA ACCORD               -.66  
+                        MAZDA 626                 -2.04 S
+                        FORD TEMPO                 2.04 S
+                        TOYOTA CAMRY                .18  
+                        NISSAN STANZA               .19  
+                        CHRYSLER LEBARON GTS        .62  
+                        PONTIAC GRAND AM           -.45  
+                        YOURSELF                   -.08  
+
+
+Objects: HONDA ACCORD        
+         TOYOTA CAMRY        
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING              .48  
+                        FUN TO DRIVE                .49  
+                        FAMILY CAR                  .47  
+                        GOOD VALUE                -1.04  
+                        PRACTICAL                  1.39 S
+                        AFFORDABLE                 -.53  
+                        EXCITING                   -.09  
+                        APPEALS TO OLDER PEO        .54  
+                        LUXURIOUS                   .96  
+                        RELIABLE                   -.60  
+                        HONDA ACCORD              -2.27 S
+                        MAZDA 626                  -.75  
+                        FORD TEMPO                 -.18  
+                        TOYOTA CAMRY               2.27 S
+                        NISSAN STANZA               .24  
+                        CHRYSLER LEBARON GTS        .44  
+                        PONTIAC GRAND AM            .19  
+                        YOURSELF                    .10  
+
+
+Objects: MAZDA 626           
+         TOYOTA CAMRY        
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING            -1.47 S
+                        FUN TO DRIVE               -.32  
+                        FAMILY CAR                 1.35 S
+                        GOOD VALUE                 1.09  
+                        PRACTICAL                  1.92 S
+                        AFFORDABLE                 -.15  
+                        EXCITING                  -1.53 S
+                        APPEALS TO OLDER PEO       1.70 S
+                        LUXURIOUS                  -.49  
+                        RELIABLE                    .10  
+                        HONDA ACCORD               -.56  
+                        MAZDA 626                 -2.04 S
+                        FORD TEMPO                  .16  
+                        TOYOTA CAMRY               2.04 S
+                        NISSAN STANZA               .68  
+                        CHRYSLER LEBARON GTS        .76  
+                        PONTIAC GRAND AM           -.31  
+                        YOURSELF                    .00  
+
+
+Objects: FORD TEMPO          
+         TOYOTA CAMRY        
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING              .50  
+                        FUN TO DRIVE               1.09  
+                        FAMILY CAR                 -.63  
+                        GOOD VALUE                 1.11  
+                        PRACTICAL                   .06  
+                        AFFORDABLE                -1.01  
+                        EXCITING                    .49  
+                        APPEALS TO OLDER PEO       -.54  
+                        LUXURIOUS                   .95  
+                        RELIABLE                   1.36 S
+                        HONDA ACCORD               -.07  
+                        MAZDA 626                  -.02  
+                        FORD TEMPO                -2.42 S
+                        TOYOTA CAMRY               2.42 S
+                        NISSAN STANZA               .58  
+                        CHRYSLER LEBARON GTS        .22  
+                        PONTIAC GRAND AM            .13  
+                        YOURSELF                    .08  
+
+
+Objects: HONDA ACCORD        
+         NISSAN STANZA       
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             1.13  
+                        FUN TO DRIVE                .23  
+                        FAMILY CAR                 -.29  
+                        GOOD VALUE                -1.33 S
+                        PRACTICAL                  2.17 S
+                        AFFORDABLE                 -.39  
+                        EXCITING                    .29  
+                        APPEALS TO OLDER PEO       -.75  
+                        LUXURIOUS                   .28  
+                        RELIABLE                   -.74  
+                        HONDA ACCORD              -4.43 S
+                        MAZDA 626                  -.77  
+                        FORD TEMPO                 -.20  
+                        TOYOTA CAMRY                .45  
+                        NISSAN STANZA              4.43 S
+                        CHRYSLER LEBARON GTS       -.06  
+                        PONTIAC GRAND AM            .43  
+                        YOURSELF                    .16  
+
+
+Objects: MAZDA 626           
+         NISSAN STANZA       
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             -.49  
+                        FUN TO DRIVE               -.57  
+                        FAMILY CAR                  .58  
+                        GOOD VALUE                 1.02  
+                        PRACTICAL                  2.73 S
+                        AFFORDABLE                  .07  
+                        EXCITING                  -1.51 S
+                        APPEALS TO OLDER PEO        .63  
+                        LUXURIOUS                  -.96  
+                        RELIABLE                   -.02  
+                        HONDA ACCORD               -.43  
+                        MAZDA 626                 -2.07 S
+                        FORD TEMPO                  .15  
+                        TOYOTA CAMRY                .66  
+                        NISSAN STANZA              2.07 S
+                        CHRYSLER LEBARON GTS        .38  
+                        PONTIAC GRAND AM           -.11  
+                        YOURSELF                    .07  
+
+
+Objects: FORD TEMPO          
+         NISSAN STANZA       
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             1.72 S
+                        FUN TO DRIVE                .68  
+                        FAMILY CAR                -1.33 S
+                        GOOD VALUE                 1.05  
+                        PRACTICAL                  1.01  
+                        AFFORDABLE                 -.86  
+                        EXCITING                   1.00  
+                        APPEALS TO OLDER PEO      -1.67 S
+                        LUXURIOUS                   .26  
+                        RELIABLE                   1.30 S
+                        HONDA ACCORD                .33  
+                        MAZDA 626                  -.04  
+                        FORD TEMPO                -2.43 S
+                        TOYOTA CAMRY                .56  
+                        NISSAN STANZA              2.43 S
+                        CHRYSLER LEBARON GTS       -.24  
+                        PONTIAC GRAND AM            .36  
+                        YOURSELF                    .15  
+
+
+Objects: TOYOTA CAMRY        
+         NISSAN STANZA       
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             1.07  
+                        FUN TO DRIVE               -.27  
+                        FAMILY CAR                 -.71  
+                        GOOD VALUE                 -.39  
+                        PRACTICAL                   .92  
+                        AFFORDABLE                  .20  
+                        EXCITING                    .42  
+                        APPEALS TO OLDER PEO      -1.18  
+                        LUXURIOUS                  -.60  
+                        RELIABLE                   -.12  
+                        HONDA ACCORD                .32  
+                        MAZDA 626                  -.02  
+                        FORD TEMPO                 -.02  
+                        TOYOTA CAMRY              -2.60 S
+                        NISSAN STANZA              2.60 S
+                        CHRYSLER LEBARON GTS       -.42  
+                        PONTIAC GRAND AM            .21  
+                        YOURSELF                    .06  
+
+
+Objects: HONDA ACCORD        
+         CHRYSLER LEBARON GTS
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING              .38  
+                        FUN TO DRIVE                .18  
+                        FAMILY CAR                 -.62  
+                        GOOD VALUE                -2.12 S
+                        PRACTICAL                  1.94 S
+                        AFFORDABLE                -1.34 S
+                        EXCITING                    .37  
+                        APPEALS TO OLDER PEO       -.52  
+                        LUXURIOUS                  2.65 S
+                        RELIABLE                  -1.32 S
+                        HONDA ACCORD              -3.70 S
+                        MAZDA 626                 -1.20  
+                        FORD TEMPO                 -.23  
+                        TOYOTA CAMRY                .07  
+                        NISSAN STANZA              -.71  
+                        CHRYSLER LEBARON GTS       3.70 S
+                        PONTIAC GRAND AM            .33  
+                        YOURSELF                   -.07  
+
+
+Objects: MAZDA 626           
+         CHRYSLER LEBARON GTS
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING            -1.27  
+                        FUN TO DRIVE               -.80  
+                        FAMILY CAR                  .25  
+                        GOOD VALUE                  .85  
+                        PRACTICAL                  2.52 S
+                        AFFORDABLE                -1.22  
+                        EXCITING                   -.91  
+                        APPEALS TO OLDER PEO        .86  
+                        LUXURIOUS                  1.88 S
+                        RELIABLE                   -.74  
+                        HONDA ACCORD              -1.18  
+                        MAZDA 626                 -2.49 S
+                        FORD TEMPO                  .18  
+                        TOYOTA CAMRY                .35  
+                        NISSAN STANZA               .03  
+                        CHRYSLER LEBARON GTS       2.49 S
+                        PONTIAC GRAND AM           -.15  
+                        YOURSELF                   -.16  
+
+
+Objects: FORD TEMPO          
+         CHRYSLER LEBARON GTS
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING              .33  
+                        FUN TO DRIVE                .70  
+                        FAMILY CAR                -1.63 S
+                        GOOD VALUE                  .89  
+                        PRACTICAL                   .64  
+                        AFFORDABLE                -1.89 S
+                        EXCITING                    .96  
+                        APPEALS TO OLDER PEO      -1.50 S
+                        LUXURIOUS                  2.67 S
+                        RELIABLE                    .79  
+                        HONDA ACCORD               -.45  
+                        MAZDA 626                  -.35  
+                        FORD TEMPO                -3.42 S
+                        TOYOTA CAMRY                .18  
+                        NISSAN STANZA              -.19  
+                        CHRYSLER LEBARON GTS       3.42 S
+                        PONTIAC GRAND AM            .26  
+                        YOURSELF                   -.08  
+
+
+Objects: TOYOTA CAMRY        
+         CHRYSLER LEBARON GTS
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             -.09  
+                        FUN TO DRIVE               -.42  
+                        FAMILY CAR                -1.02  
+                        GOOD VALUE                -1.26  
+                        PRACTICAL                   .55  
+                        AFFORDABLE                -1.04  
+                        EXCITING                    .48  
+                        APPEALS TO OLDER PEO       -.99  
+                        LUXURIOUS                  2.38 S
+                        RELIABLE                   -.76  
+                        HONDA ACCORD               -.28  
+                        MAZDA 626                  -.34  
+                        FORD TEMPO                  .00  
+                        TOYOTA CAMRY              -3.14 S
+                        NISSAN STANZA              -.81  
+                        CHRYSLER LEBARON GTS       3.14 S
+                        PONTIAC GRAND AM            .14  
+                        YOURSELF                   -.16  
+
+
+Objects: NISSAN STANZA       
+         CHRYSLER LEBARON GTS
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             -.96  
+                        FUN TO DRIVE               -.08  
+                        FAMILY CAR                 -.31  
+                        GOOD VALUE                 -.84  
+                        PRACTICAL                 -1.84 S
+                        AFFORDABLE                -1.23  
+                        EXCITING                    .15  
+                        APPEALS TO OLDER PEO        .23  
+                        LUXURIOUS                  2.24 S
+                        RELIABLE                   -.67  
+                        HONDA ACCORD               -.84  
+                        MAZDA 626                  -.32  
+                        FORD TEMPO                  .02  
+                        TOYOTA CAMRY               -.47  
+                        NISSAN STANZA             -2.70 S
+                        CHRYSLER LEBARON GTS       2.70 S
+                        PONTIAC GRAND AM           -.06  
+                        YOURSELF                   -.23  
+
+
+Objects: HONDA ACCORD        
+         PONTIAC GRAND AM    
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             2.02 S
+                        FUN TO DRIVE               1.41 S
+                        FAMILY CAR                -1.12  
+                        GOOD VALUE                -2.21 S
+                        PRACTICAL                  1.89 S
+                        AFFORDABLE                -1.11  
+                        EXCITING                   2.07 S
+                        APPEALS TO OLDER PEO      -2.14 S
+                        LUXURIOUS                  2.09 S
+                        RELIABLE                  -1.31 S
+                        HONDA ACCORD              -2.53 S
+                        MAZDA 626                  -.77  
+                        FORD TEMPO                 -.70  
+                        TOYOTA CAMRY               -.43  
+                        NISSAN STANZA              -.67  
+                        CHRYSLER LEBARON GTS       -.08  
+                        PONTIAC GRAND AM           2.53 S
+                        YOURSELF                   1.33 S
+
+
+Objects: MAZDA 626           
+         PONTIAC GRAND AM    
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             1.71 S
+                        FUN TO DRIVE               1.04  
+                        FAMILY CAR                 -.30  
+                        GOOD VALUE                  .80  
+                        PRACTICAL                  2.46 S
+                        AFFORDABLE                 -.95  
+                        EXCITING                   1.29 S
+                        APPEALS TO OLDER PEO       -.74  
+                        LUXURIOUS                  1.06  
+                        RELIABLE                   -.65  
+                        HONDA ACCORD              -1.22  
+                        MAZDA 626                 -2.52 S
+                        FORD TEMPO                 -.30  
+                        TOYOTA CAMRY               -.16  
+                        NISSAN STANZA               .06  
+                        CHRYSLER LEBARON GTS        .32  
+                        PONTIAC GRAND AM           2.52 S
+                        YOURSELF                   1.22  
+
+
+Objects: FORD TEMPO          
+         PONTIAC GRAND AM    
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             3.47 S
+                        FUN TO DRIVE               2.40 S
+                        FAMILY CAR                -2.06 S
+                        GOOD VALUE                  .84  
+                        PRACTICAL                   .55  
+                        AFFORDABLE                -1.74 S
+                        EXCITING                   2.91 S
+                        APPEALS TO OLDER PEO      -2.89 S
+                        LUXURIOUS                  2.10 S
+                        RELIABLE                    .93  
+                        HONDA ACCORD               -.79  
+                        MAZDA 626                   .12  
+                        FORD TEMPO                -2.43 S
+                        TOYOTA CAMRY               -.35  
+                        NISSAN STANZA              -.15  
+                        CHRYSLER LEBARON GTS       -.22  
+                        PONTIAC GRAND AM           2.43 S
+                        YOURSELF                   1.33 S
+
+
+Objects: TOYOTA CAMRY        
+         PONTIAC GRAND AM    
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             2.69 S
+                        FUN TO DRIVE               1.23  
+                        FAMILY CAR                -1.49 S
+                        GOOD VALUE                -1.42 S
+                        PRACTICAL                   .46  
+                        AFFORDABLE                 -.75  
+                        EXCITING                   2.32 S
+                        APPEALS TO OLDER PEO      -2.49 S
+                        LUXURIOUS                  1.55 S
+                        RELIABLE                   -.68  
+                        HONDA ACCORD               -.65  
+                        MAZDA 626                   .13  
+                        FORD TEMPO                 -.50  
+                        TOYOTA CAMRY              -2.22 S
+                        NISSAN STANZA              -.77  
+                        CHRYSLER LEBARON GTS       -.37  
+                        PONTIAC GRAND AM           2.22 S
+                        YOURSELF                   1.21  
+
+
+Objects: NISSAN STANZA       
+         PONTIAC GRAND AM    
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             2.12 S
+                        FUN TO DRIVE               1.32 S
+                        FAMILY CAR                 -.82  
+                        GOOD VALUE                -1.04  
+                        PRACTICAL                 -2.00 S
+                        AFFORDABLE                 -.97  
+                        EXCITING                   2.61 S
+                        APPEALS TO OLDER PEO      -1.41 S
+                        LUXURIOUS                  1.70 S
+                        RELIABLE                   -.58  
+                        HONDA ACCORD              -1.03  
+                        MAZDA 626                   .16  
+                        FORD TEMPO                 -.49  
+                        TOYOTA CAMRY               -.84  
+                        NISSAN STANZA             -2.68 S
+                        CHRYSLER LEBARON GTS       -.02  
+                        PONTIAC GRAND AM           2.68 S
+                        YOURSELF                   1.12  
+
+
+Objects: CHRYSLER LEBARON GTS
+         PONTIAC GRAND AM    
+
+                        Attribute                 Z-Score
+                        =========                 =======
+                        SPORTY LOOKING             2.21 S
+                        FUN TO DRIVE               1.75 S
+                        FAMILY CAR                 -.51  
+                        GOOD VALUE                 -.24  
+                        PRACTICAL                  -.35  
+                        AFFORDABLE                  .36  
+                        EXCITING                   1.68 S
+                        APPEALS TO OLDER PEO      -1.65 S
+                        LUXURIOUS                  -.82  
+                        RELIABLE                    .16  
+                        HONDA ACCORD               -.49  
+                        MAZDA 626                   .51  
+                        FORD TEMPO                 -.55  
+                        TOYOTA CAMRY               -.54  
+                        NISSAN STANZA               .04  
+                        CHRYSLER LEBARON GTS      -2.04 S
+                        PONTIAC GRAND AM           2.04 S
+                        YOURSELF                   1.42 S

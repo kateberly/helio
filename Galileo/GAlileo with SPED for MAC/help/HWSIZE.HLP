@@ -1,0 +1,19 @@
+
+      I work by sweeping a "window" of w words through the text; the
+      connections among words which are simultaneously in this window
+      are strengthened, while others are weakened. The wider the window,
+      the deeper I search for connections. Making the window too narrow
+      makes me look for only the most superficial connections; making it
+      too wide makes me believe that all is one.
+
+      I can work completely manually as well. In this case, you must mark
+      the original text by placing  -1's throughout the text. These -1's
+      demarcate "episodes"; connections among words which are simultaneously
+      in these "episodes" are strengthened while others are weakened.
+
+      Unless you have a very good reason for setting episodes manually, it
+      may be wise simply to set a window size and let me do it automatically.
+      (Hint!  If your not sure, run me several times with various different
+      window sizes!)
+
+

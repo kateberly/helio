@@ -1,0 +1,11 @@
+I read lists of lists. If you go to the market, you buy 
+a list of groceries, and over time, you will run through
+many such lists. I can read the lists and learn what items
+usually go together on the lists. After I've learned the
+lists, you can query me -- you might type "orange juice", 
+for example, and I might the respond with eggs, butter,
+coffee, rolls, and other things you often bought with
+orange juice. You only make me read a list of lists when
+you are training me; if you just want to query me about
+a list of lists I already learned, then you don't need
+me to read a new list of lists.

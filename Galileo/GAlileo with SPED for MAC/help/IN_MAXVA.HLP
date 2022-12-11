@@ -1,0 +1,17 @@
+
+      It's always the case for unbounded scales, whether physical or
+      psychometric, that precautions must be taken against extreme "spikes"
+      in data, such as might be caused by a train driving past a seismograph,
+      or a patient bumping a heart monitor. One of the simplest and most
+      effective ways to do this is to ignore any numbers above a certain
+      threshold. Physical scientists and engineers sometimes apply
+      "Chauvenet's criteria", which suggests all values more than three
+      standard deviations from the mean be ignored.
+
+      Filtering is often necessary, or else respondents who use very
+      large numbers can dominate the results, but sometimes inappropriate
+      filtering can ruin your data. Under no circumstances should you
+      remove any data without examining it number by number in the raw
+      questionnaires.
+
+

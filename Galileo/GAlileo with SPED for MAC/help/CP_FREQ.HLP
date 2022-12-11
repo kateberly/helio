@@ -1,0 +1,16 @@
+If you type YES, I will read every word in 
+your file, provide you with a word count, 
+and list each word in alphabetical order.
+ 
+This "frequency option" is often used by
+analysts who wish to perform a cleaning run
+before analyzing their data.
+
+A straight frequency run can help you find
+typographical errors and/or display synonyms,
+which you may later wish to re-code using 
+your local text editor.
+
+Users should keep in mind, that the number of
+unique words I can handle in its cluster 
+routine is 1300.

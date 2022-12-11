@@ -1,0 +1,20 @@
+
+      There are three kinds of switching data. The first consists of the
+      absolute numbers; how many owners of brand x who switched to brand y
+      during a given period.  The second kind is called "loyalty" data, and
+      it consists of the percentages of those who owned brand x who swithed
+      to each of the other brands during the period.  The third is called
+      "source of sales" data, and consists of the percentage of those who
+      switched TO brand x in any time period who came from each of the
+      other brands.
+
+      If the data are already percentages (of whichever kind), I leave
+      them alone. If they are raw numbers, I can percentage them either
+      ways and write either a loyalty or a source of sales table.
+
+      I can be used in a much more general way as a utility to allow
+      entering any kind of square matrix of numbers at all. This can be
+      particularly useful in designing artificial neural networks, hence
+      my name, NETIN.
+
+

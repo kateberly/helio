@@ -1,0 +1,56 @@
+
+
+
+                              Galileo*ELQM
+
+
+
+      I'm ELQM (Electronic Questionnaire Maker), and I'm the heart of the
+      Galileo CATS system. I'll ask you a series of questions, and then
+      build a filing system, write an electronic questionnaire, and coor-
+      dinate the other programs in the CATS system.
+
+      I need only know the name of a directory on which you want the
+      study to reside. If you are going to have several different versions
+      of a questionnaire, then a separate directory will be required for
+      each questionnaire. (You might find it useful in such cases to create
+      a master directory for the study as a whole, with a subdirectory for
+      each questionnaire version.)
+
+      I can make four kinds of question (which is all there are, I think.)
+      First, I can make a complete Galileo(tm) type magnitude estimation
+      paired comparisons instrument. I can also make magnitude estimation
+      scales, category scales (like male=0, female=1) and Likert-type scales,
+      and open-ended or in-depth questions.
+
+      Once I've made your electronic questionnaire, you or your agents
+      run SPED (the Simplified Process for Entering Data), and SPED
+      will prompt you with the questions. When you (or your respondent)
+      answers, the answers will be directed automatically to the correct
+      files.
+
+      I always create 3 files on the study directory: study.dat, study.lbl,
+      and galileo.dat. Study.dat is the master control file, and contains
+      all the information about the study, including the exact wording of
+      every question and the file handling information. Study.lbl contains
+      a list of the concept labels for the Galileo questionnaire, which are
+      needed for subsequent processes. Galileo.dat contains all numerical
+      data, including the paired-comparison responses and responses to all
+      quantitative and categorical questions. The Galileo paired comparison
+      data and the other questions are interspersed in this file in an
+      obvious way; the exact format of these files is stored in study.dat.
+
+      Study.dat is read by a program called Read. Just run Read and name
+      the study directory; Read will write out the information there,
+      including all relevant formats.
+
+      In addition to these files, I will create a file for each open-ended
+      or qualitative question, named after the ordinal position of the
+      question. If the third question were, for example,
+
+      3.) Discuss your summer vacation. Be brief.
+
+      I would create a file called quest03.dat, and I would tell SPED
+      to append all responses to that question to quest003.dat.
+
+
