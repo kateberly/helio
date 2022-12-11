@@ -1,0 +1,10 @@
+1) Create a cmd-line-type input that emulates ELQM (That takes in parameters and also miscellanious info)
+    1a) (Preferably, set up a pandas dataframe for future data input)
+    1b) Save as a pkl file
+    1c) Save misc. info as a second dataframe for ease of use
+2) Create a cmd-line-type input that emulates AQM (that interprets the above ELQM and generates a questionnaire)
+    2a) eventually figure out a nice format to import into g-forms
+    2b) alternatively just figure out the API and import into gforms
+        2bi) goodluck
+3) Create a thingy that does SPED but better (that automatically interpets a .csv file imported from g-forms)
+    3a) seperate out the misc. questions from the parameter questions
