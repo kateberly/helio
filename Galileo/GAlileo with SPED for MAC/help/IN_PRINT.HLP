@@ -1,0 +1,9 @@
+
+     V57 will produce a 'print' file containing statistics, messages and
+     other run information.  Enter the name of a file you would like V55
+     to write to.  You may include a path, but keep the whole name under
+     40 characters.  Galileo researchers usually use a .prt extension for
+     print file names.  You may use any extension you like.
+
+
+

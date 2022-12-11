@@ -1,0 +1,587 @@
+
+
+
+                              Galileo*ELQM
+
+
+
+      I'm ELQM (Electronic Questionnaire Maker), and I'm the heart of the
+      Galileo CATS system. I'll ask you a series of questions, and then
+      build a filing system, write an electronic questionnaire, and coor-
+      dinate the other programs in the CATS system.
+
+      I need only know the name of a directory on which you want the
+      study to reside. If you are going to have several different versions
+      of a questionnaire, then a separate directory will be required for
+      each questionnaire. (You might find it useful in such cases to create
+      a master directory for the study as a whole, with a subdirectory for
+      each questionnaire version.)
+
+      I can make four kinds of question (which is all there are, I think.)
+      First, I can make a complete Galileo(tm) type magnitude estimation
+      paired comparisons instrument. I can also make magnitude estimation
+      scales, category scales (like male=0, female=1) and Likert-type scales,
+      and open-ended or in-depth questions.
+
+      Once I've made your electronic questionnaire, you or your agents
+      run SPED (the Simplified Process for Entering Data), and SPED
+      will prompt you with the questions. When you (or your respondent)
+      answers, the answers will be directed automatically to the correct
+      files.
+
+      I always create * files on the study directory: study.dat, study.lbl,
+      and galileo.dat. Study.dat is the master control file, and contains
+      all the information about the study, including the exact wording of
+      every question and the file handling information. Study.lbl contains
+      a list of the concept labels for the Galileo questionnaire, which are
+      needed for subsequent processes. Galileo.dat contains all numerical
+      data, including the paired-comparison responses and responses to all
+      quantitative and categorical questions. The Galileo paired comparison
+      data and the other questions are interspersed in this file in an
+      obvious way; the exact format of these files is stored in study.dat.
+
+      Study.dat is read by a program called Read. Just run Read and name
+      the study directory; Read will write out the information there,
+      including all relevant formats.
+
+      In addition to these files, I will create a file for each open-ended
+      or qualitative question, named after the ordinal position of the
+      question. If the third question were, for example,
+
+      3.) Discuss your summer vacation. Be brief.
+
+      I would create a file called quest03.dat, and I would tell SPED
+      to append all responses to that question to quest03.dat.
+
+
+         *** Online help is currently not available for ELQM ***
+
+
+
+
+
+
+
+
+                          Galileo*AQM
+
+
+      ELQM (the Electronic Questionnaire Maker) makes an electronic
+      questionnaire that can be administered online or by phone through
+      a skilled interviewer who enters data live onto the computer using
+      SPED (The Simplified Process for Entering Data). But every now and
+      then, as in mailed questionnaires, mall intercepts and the like,
+      there comes the need for that primitive technology, the paper and
+      pencil questionnaire. I make these.
+
+      (Actually, I only make the Galileo paired comparison parts of it,
+      along with a few standard questions scientists at The Galileo
+      Company always use.) That's because paired comparison questionnaires
+      are very difficult to make using a word processor. The rest of the
+      questionnaire is easier to make using a word processor like
+      Microsoft Word or WordPerfect, so I don't do that.
+
+      I'll write out the Galileo questionnaire on a file you choose. You
+      can edit it as you like and print the questionnaires then.
+
+
+
+                              Galileo*READ
+
+
+      ELQM (the Electronic Questionnaire Maker) sets up the Galileo
+      CATS system, makes the files, and automatically controls access
+      to data. If you need to review a particular study after you've
+      set it up with ELQM, you need me. Just tell me the name of the
+      directory on which the study resides and I'll find the relevant
+      information and write it out on the screen for you.
+
+
+
+
+                                Galileo*SPED
+
+
+
+      I'm the chief data entry program in Galileo*CATS.  All I need to know
+      from you is the name of the directory on which the study resides (the
+      "study directory"). After that, I'll prompt you for all the questions
+      and automatially post the responses to the correct files.
+
+
+
+
+
+                              Galileo*ALLSPLIT
+
+
+
+      I'm a general purpose splitting utility. You can just tell me what
+      columns you want to split on, and where you want the split files,
+      and I'll do it. I can split on values or ranges.
+
+      I can read the study.dat file made by ELQM, and so I know where your
+      variables are and can help you during the split run. I can write
+      out a list of the variables, and I can split by variable name as
+      well as by column. I can write out all of a case or any subset of
+      it; you tell me what you want written out. (Some Galileo processors
+      don't want to see anything but paired comparison data in their
+      files; you can get rid of all the other data using this option.)
+
+      It may take a while to master me, but it's well worth it. I'm
+      very versatile.
+
+
+
+
+
+                            Galileo*TABLES
+
+      I make tables out of pair comparison data. Most brand managers
+      (and most social scientists, for that matter) follow Aristotle
+      in dividing up their experience into objects and attributes.In
+      this model, objects are defined by describing their attributes,
+      so that a ball might be round, yellow and soft, or a car might
+      be economical, reliable and stylish.
+
+      In more advanced models, objects may have differential amounts
+      of each attribute (every quality exists in some quantity). In
+      paired comparison dissimilarities data typical of Galileo data,
+      objects are arrayed at various distances from various attributes,
+      so that an economical car can be close to the attribute "econom-
+      ical", but a more economical car can be even closer, and so forth.
+
+      I'll ask you for Galileo data in standard format, and I'll ask
+      you to tell me which of your concepts are objects and which are
+      attributes. Then I'll make tables which give the mean distances
+      between each object and each attribute. I'll also make tables of
+      Z for each pair of objects, which shows how they differ in their
+      scores on each attribute. The difference is given in standard
+      units (z-scores), and a mark ('S') is made if the differences are
+      significant at the 80% level.
+
+
+                               BALLOT
+
+
+
+              I am a variation of TABLES. Iim particularly
+        useful when the topic you are studying involves discrete
+        choices. Elections are examples of discrete choices,
+        since voters may either vote for a candidate or not.
+        Expensive products such as automobiles usually may be
+        considered discrete choices as well, but inexpensive
+        products typically are not, since you can buy variable
+        quantities of them.
+
+              I make the same inquiries as TABLES: I ask how
+        many concepts there are, on what file the concept names
+        or labels are to be found, whether or not you want a
+        logarithmic transformation of the data, what the name
+        of your data segment is (this becomes the title of your
+        table), where your data (in standard GALILEO raw data
+        format) may be found, and on what file you'd like the
+        output written.
+
+
+              I also ask you to identify two "candidates" or products
+        (I work only for two-candidate races at present, but
+        I'm hoping to be upgraded soon) and a "self-concept", which
+        represents a self-point or ideal point.
+
+              I then divide up the cases into four piles: the
+        first pile contains those cases closer to the first
+        candidate or product; the second contains those closer
+        to the second candidate or product; the third contains
+        those equidistant from both candidates or products
+        (the "undecided"), and the fourth contains those for
+        which the crucial data is missing.
+
+        The results are displayed on the screen and written to
+        the file you named in a standard ASCII format ready to
+        print.
+
+
+
+
+
+                              GALILEO*MICROGAL
+
+
+        I am the PC version of the mainframe Galileo
+        computer program. I expect to read raw data in standard
+        Galileo paired comparison format, and calculate the coor-
+        dinates of the concepts in Galileo space. These coordinates
+        may be plotted to produce a graphic picture of the data, or
+        they may serve as input to other Galileo programs, such as
+        Strategy and Compare.
+
+        I also calculate the standard error for each of the
+        points. These standard errors can serve as an estimate of
+        the uncertaintly around the location of the points. In
+        graphic representations, the standard error or some multiple
+        usually serves as the diameter of the circle or sphere
+        which represents the concept in Galileo space. If all
+        standard sampling distribution assumptions are correct
+        (which, of course, they never are) there will be about a
+        67% likelihood that the concept is actually located within
+        plus or minus one standard error of the location given
+        by its Galileo coordinates.
+
+        I ask for the number of concepts, the maximum
+        value above which it will ignore data, the location of
+        the labels file (the file were the names of the concepts
+        are kept), the name (and complete path) of the file
+        where the data are kept. I will also ask whether a
+        logarithmic transformation of the data are desired,
+        and what you want to name the output file and the
+        coordinates file. The output file is the place where an
+        output file suitable for printing is written, and the
+        coordinates file is where coordinates for plotting or
+        input into other Galileo programs are stored. You
+        should supply the complete path for each of these
+        files, otherwise I will write them into your
+        current directory.
+
+
+
+                        Galileo*PLOT
+
+      I read coordinates made by Microgal, V55, or Galnet and plot
+      them graphically on the screen. Only the first three dimensions
+      are plotted. The first dimension is the horizontal axis, the second
+      dimension is the vertical axis, and depth is the third dimension.
+
+      Each concept is represented as a sphere whose size is a function of the
+      uncertainty of measure. The radii of the spheres representing the
+      concepts is one standard error. (Measurement of the uncertainty of
+      location of the concepts depends on a complete measurement of all
+      pairwise distances among the concepts.)
+
+      All Galileo programs, including CATPAC, KIT, ORESEME, MICROGAL and V55
+      provide complete pair comparison measures. GALNET can also do so, but
+      allows producing ordinary perceptual maps from object-attribute data.
+      So far, only Microgal and V55 are able to calculate the actual errors.
+
+      When standard errors cannot be calculated, radii are defaulted to a
+      convenient number which allows easy visualization, but far
+      underestimates the actual error of measure. (I'll warn you when
+      the errors are missing and I have to use the default radii.)
+
+      I correct for parallel perspective according to distance from the
+      eyepoint, as does the human eye. This means that objects close to the
+      viewer will appear much larger than those far from the viewer.
+
+      I allow a limited ability to interact with the plot. You can rotate
+      the space up, down, left and right any arbitrary number of degrees.
+      This is not as easy as it sounds, and rookies frequently become
+      hopelessly lost after a few rotations. If this happens to you, just
+      leave the program and start again; no harm can be done by experimenting.
+
+      I currently don't support printing, but WordPerfect users can
+      capture the PLOT image using the GRAB utility, and insert it into
+      WordPerfect documents in the standard way.
+
+
+
+
+
+                            Galileo*ASG
+
+
+
+      I'm the Automated Strategy Generator (ASG). I can read Galileo
+      Coordinates made by Microgal, V55, or Galnet, and calculate the
+      likely effects of every possible strategy for repositioning any
+      concept in the Galileo space. In doing this, I follow the theory
+      of Woelfel and Fink, The Measurement of Communication Processes:
+      Galileo Theory and Method, Academic Press, New York, 1980.
+
+      Unlike the model in V55, I provide weighted strategies; that is,
+      I can tell you my best guess as to how much to emphasize each
+      element of a strategy. I can even consider negative strategies
+      (such as "I am not a crook") and mixed strategies, such as
+      "Luxurious, but not expensive." To be candid, however, the
+      practical differences between weighted strategies and unweighted
+      strategies is fairly small relative to today's (1991) ability
+      to measure. Improved measurement precision (sure to come) will
+      make these differences crucial, however, so it's not OK to put
+      the question out of mind.
+
+      I can only make strategies if I know what your goals are, though,
+      and I'll ask you a series of questions to find out what you want
+      to accomplish. If you don't know what to do at any point, just
+      enter a '?'.
+
+        *** Online help is currently not available for ASG ***
+
+
+                          Galileo*WHATIF
+
+
+      I'm trained to help you evaluate potential strategies. You
+      provide me with a goal (that is, the position you want to
+      take in the market place, or where you want to go). You also
+      tell me what concept (product, candidate, etc.) you want to
+      move to that position.
+
+      Then you can suggest various combinations of other concepts,
+      attributes, and the like, that you think might form an effective
+      strategy for moving the desired concept to the desired position.
+      I will tell you how far are from that position at the start,
+      how close this strategy is capable of bringing you, and what
+      percentage of the original distance this would be. (Zero, of
+      course, would be a perfect strategy which could take you exactly
+      to the position you wish to occupy.)
+
+      While the typical procedure is to move one concept to the
+      position of another single concept (e.g., to move a product
+      to the point where most people in the market can be found, or
+      to another ideal point),  I am able to evaluate strategies of
+      any degree of complexity. You may try to move one concept to
+      the middle of any number of others; or you may try to move
+      several concepts toward one other, or several concepts to the
+      center of several others.
+
+      As with any other simulator, my accuracy depends on the tested
+      strategy being fully implemented, and on the fact that outside
+      forces such as competitor's strategies don't change the situation
+      beyond my existing knowledge. No strategy can ever be perfectly
+      implemented, and outside circumstances never stand still. A wise
+      analyst will always assume each strategy will be somewhat less
+      effective than its simulation. But it is appropriate to compare
+      strategies to each other.
+
+
+
+
+                               Galileo*CATPAC
+
+
+
+      I'm a self-organizing neural network optimized to read and understand
+      text. I can read any ASCII text and determine its underlying conceptual
+      structure. Technically this means that I can learn the patterns of
+      association among the various words in the text, and perform a diameter
+      method hierarchical cluster analysis of these relations.
+
+      I also write out the matrix of interrelations in a file with the
+      appendix .win (weight input network). This square matrix represents
+      the pattern of interrelationships among the top N words in the text
+      (you have to tell me what N you desire). You can input this matrix
+      to other programs (such as your favorite statistics package), or to
+      other neural networks, particularly ORESEME.
+
+      Another interesting use of the .win matrix is to give it to GALNET,
+      who makes it into Galileo coordinates. These can then be plotted
+      by PLOT. Perceptual maps from text is a Galileo exclusive! (You not
+      only saw it here first, you can't see it anywhere else!)
+
+
+
+
+                             Galileo*EXCLUDE
+
+
+          Whenever CATPAC  reads text, they automatically skip certain
+      words that most people don't care to examine (such as a, the, if,
+      because, and so on.)
+
+      You may have some additional words in your text you'd like to ignore,
+      or, you may want to remove some words from the exclude list.
+
+      I help you add or delete words from the exclude list.
+
+
+
+
+
+                             Galileo*GALNET
+
+
+
+             I  make metric coordinates for generalized
+        input data. I will read either a square matrix of
+        dissimilarities, similarities, covariances, correlations,
+        connections among neurons or other user supplied input, and
+        project the concepts or variables corresponding to the rows
+        of that matrix onto coordinates which retain the metric of
+        the input matrix.
+
+        Alternately, you may input a rectangular objects by
+        attributes matrix in which each row represents some object
+        and each column represents some attribute. Cell entries
+        represent the numerical value of the attribute for the
+        corresponding object.
+
+        In this second case, the labels file must contain the names
+        of the endpoints of the attributes following the names of the
+        objects scaled. In the following example, several people and a
+        cat are rated according to their height, weight and age:
+
+ SALLY
+ BOB
+ JOE
+ ROSS
+ GEORGE
+ RALPH
+ FELIX
+ LYNNE
+ SHORT
+ TALL
+ LIGHT
+ HEAVY
+ YOUNG
+ OLD
+
+      The data matrix for this example is as follows:
+
+ (8f10.0)
+ 64.        112.      26.
+ 68.        148.      44.
+ 55.        90.       12.
+ 65.        135.      18.
+ 67.        120.      17.
+ 65.        110.      17.
+ 21.         12.       2.
+ 66.        145.      23.
+
+      Each of the people (and the cat) are rated according to their
+      height in inches, their weight in pounds, and their age in years.
+
+      These labels can be found in \galileo\data\us.lbl and the data
+      can be found in \galileo\data\us.dat.
+
+
+      I am also useful for taking .WIN matrices made by CATPAC or
+      ORESEME and converting them into Galileo-type coordinates which
+      can then be displayed using PLOT, or may serve as inputs into
+      ASG or WHATIF. To use me to convert CATPAC or ORESEME outputs
+      into a form that can be read by PLOT, ASG and WHATIF, simply
+      run me (GALNET), and name the .WIN file made by CATPAC or
+      ORESEME when I ask where your data are. When I ask if this is
+      a real Galileo, say "yes", and when I ask if this is a
+      CENTROID SCALAR PRODUCTS MATRIX, say 'yes.'
+
+
+
+
+                               Galileo*V5.5
+
+
+      I'm a PC version of the original Galileo mainframe computer
+      program. I'm a general purpose program that can do a huge
+      variety of things. Learning what I can do is beyond the scope
+      of this manual, and I should really only be used by advanced
+      analysts. A good introduction to what I can do, along with
+      a manual illustrating how to get me to do a wide variety of
+      things can is The Measurement of Communication Processes, by
+      Joseph Woelfel and Edward L. Fink (Academic Press, NY, 1980).
+      If you have trouble finding this volume, please contact Terra
+      Research and Computing Company.
+
+
+
+
+
+                               Galileo*INTERGAL
+
+
+
+     Galileo Version 5.5 (known affectionately as V55) is the current
+     version of the original mainframe Galileo program. Originally
+     designed in the 1970's, V55's architecture is hopelessly antiquated,
+     but, like the dinosaurs it resembles, it's still quite powerful and
+     can do several things that have not yet been ported to the PC plat-
+     form. For that reason, it remains alive and is still supported.
+
+     It is, however, essentially a batch-oriented omnibus program that
+     is meant to be run with bricks of hollerith cards passed through
+     a dispatch window. I am a hideous kludge designed to write a run
+     stream that makes V55 work. I'll ask you a series of questions,
+     then write a command file that executes a V55 run.
+
+     Crude, but effective.
+
+     *** Online help is currently not available for Intergal ***
+
+
+
+
+                            Galileo*ORESEME
+
+
+            I'm a self-organizing neural network like CATPAC. (we're
+      related).  I'm optimized for conversation, however.  You can type
+      words to me, and I respond with the words I associate with those
+      words.  What's more, I'm self-organizing, which means I can learn
+      from the conversation and change the patterns of assocations by
+      paying attention to our conversations.
+
+      I can also read .win matrices made by CATPAC and KIT, so that all
+      the patterns of association they learned are instantly available
+      to me.  (Don't you wish you could do that with YOUR relatives?)
+      This means that I can talk to you about some text CATPAC or KIT has
+      read, and I'll know the things they discovered.
+
+      You might think of me as a non-hierarchical clustering system.  I
+      read the word or words you give to me, and I find out what other
+      words go with them; this set of words can be thought of as a cluster
+      or category.  But I don't assign each word into only one category,
+      as does a hierarchical clustering scheme, and a word can belong to
+      many categories for me, as for you.  (Marketers find this helpful
+      when they are trying to develop a product that can exist in, and
+      compete in, several segments at once.)
+
+
+
+
+
+                             Galileo*NETIN
+
+
+      Perhaps the most important mathematical form in all multivariate
+      analysis is the square matrix. I'm a simple utility that allows
+      you to enter any arbitrary square matrix and normalize it in one
+      or more useful ways.
+
+      I'm called NETIN because the most general theoretical form that
+      is used to describe such matrices is network. Each row or column
+      of the network is called a node, and the cell entries represent
+      the relationships (or connections or weights) among the nodes.
+
+      I was created originally to deal with switching data, such as
+      brand loyalty and the like. There are two kinds of switching data:
+      loyalty and source of sales. Loyalty data tells the percentage of
+      users of brand x that switch to brands y, z, and so forth. Source
+      of sales data tells the percentage of those who switch to brand x
+      that come from brands y, z and so on. I can make either type for
+      you, but it's up to you to know which kind you want.
+
+
+
+
+
+                           Galileo*FORECAST
+
+
+
+      I can project future sales and installed base from loyalty data. By
+      loyalty data I mean a square products X products matrix whose entries
+      give the percentage of those who use product x that switch to product
+      y during the period the matrix represents.
+
+      I also need to know the percentage of the entire installed base that
+      is represented by each of the products in the matrix, the percentage
+      of each of the products that is traded during the period, and the rate
+      at which each product (or its users) goes out of service during the
+      period. (A car which has gone to the junk yard, for example, can't be
+      traded in.)
+
+      As you go through the program, I can help you with files, formats and
+      the like. Just enter '?' whenever you don't know what to do next.
+      By the way, NETIN is just the ticket for making the loyalty matrix
+      I need.  Tell NETIN that FORECAST sent you!
+
+
+

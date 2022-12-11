@@ -1,0 +1,8 @@
+
+      I need the exact path to a file on which I'll write the z scores.
+      These z-scores will report the number of standard deviation units
+      by which each pair of objects differs across all attributes. Objects
+      which differ by more than an 80% likelihood will be marked with an
+      'S', meaning the differences are significant at the 80% level.
+
+

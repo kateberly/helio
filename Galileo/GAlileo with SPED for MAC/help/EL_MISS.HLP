@@ -1,0 +1,9 @@
+
+     Enter the missing value for this question.  Usually a missing value is
+     a number that would not normally show up as a response.  If the question
+     was "What is your sex, 1=male   2=Female?"  a good missing value would
+     be 9.  Make sure your missing value takes up as many columns as the
+     upper bound of your question.  For example, if the range of response
+     for a question is 0 to 100, enter 999 as the missing value.
+
+

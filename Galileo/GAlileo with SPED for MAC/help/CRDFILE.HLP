@@ -1,0 +1,10 @@
+
+      The most important product of this run is the set of coordinates
+      of the concepts in Riemann Space. These coordinates serve as input
+      to other GALILEO programs. They can
+      also be used as input to V57. These coordinate files will contain
+      the coordinates, the concept labels and the standard errors for each
+      concept.
+
+      Here I just need you to tell me the path to a file on which you
+      want me to write them. If the file doesn't exist, I'll create it.

@@ -1,0 +1,6 @@
+
+     Tell me the path and name of the file where the data reside.  You can use
+     galileo data, galileo data with demographics, or just demographic data.
+
+     You will need to know the line number, column number, and value(s) or
+     ranges for each variable you wish to split on.

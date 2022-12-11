@@ -1,0 +1,28 @@
+
+      I need the exact path to the file in which your labels are kept. Almost
+      all Galileo programs need a labels file, but I need a bit of a special
+      lables file, since I need not only the labels (in columns 1-20), but I
+      also need the precentage of the market each product comprises (F10.9
+      in columns 21-30), the precentage of each product that is traded in
+      during each period (F5.4 in columns 31-35), and the percentage of
+      each product (or owner!) that survives each period (F5.4 in columns
+      36-40.)
+
+      Here's an example from the auto industry:
+
+ OTHER               .734      .2   .8
+ ESCORT              .03       .2   .7
+ CIVIC               .023      .2   .9
+ COROLLA             .024      .2   .9
+ TERCEL              .010      .2   .9
+ MUSTANG             .013      .2   .8
+ CELICA              .009      .2   .9
+ TEMPO               .025      .2   .7
+ ACCORD              .045      .2   .95
+ CAMRY               .030      .2   .95
+ TAURUS              .034      .2   .9
+ TBIRD               .011      .2   .8
+ CROWN               .012      .2   .9
+
+
+

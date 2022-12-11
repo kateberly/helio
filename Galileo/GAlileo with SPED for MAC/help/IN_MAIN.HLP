@@ -1,0 +1,17 @@
+
+     Rotation of spaces is extremely important in making meaningful comparisons
+     between data sets.  Rotation tends to reduce spurious differences between
+     data sets.
+
+     V55 offers two comparison types.  The second is a mainspace rotation.
+     Unlike a time series comparison, a mainspace comparison is used for
+     static data.  For example, you have a data set that is split into 5
+     age groups.  In order to make more meaningful comparisons between the
+     age groups, you would rotate each to a standard mainspace.  This is
+     usually the full data set as this tends to be more robust than a smaller
+     subset of the data.  A mainspace  comparison, then,  will rotate each
+     space to the space you specify as your main space.
+
+     Enter the number of the space you wish to use as a mainspace.
+
+

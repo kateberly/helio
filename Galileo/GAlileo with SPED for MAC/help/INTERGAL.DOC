@@ -1,0 +1,24 @@
+
+
+
+                               Galileo*INTERGAL
+
+
+
+     Galileo Version 5.5 (known affectionately as V55) is the current
+     version of the original mainframe Galileo program. Originally
+     designed in the 1970's, V55's architecture is hopelessly antiquated,
+     but, like the dinosaurs it resembles, it's still quite powerful and
+     can do several things that have not yet been ported to the PC plat-
+     form. For that reason, it remains alive and is still supported.
+
+     It is, however, essentially a batch-oriented omnibus program that
+     is meant to be run with bricks of hollerith cards passed through
+     a dispatch window. I am a hideous kludge designed to write a run
+     stream that makes V55 work. I'll ask you a series of questions,
+     then write a command file that executes a V55 run.
+
+     Crude, but effective.
+
+
+

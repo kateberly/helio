@@ -1,0 +1,58 @@
+
+
+
+                             Galileo*GALNET
+
+
+
+             I  make metric coordinates for generalized
+        input data. I will read either a square matrix of
+        dissimilarities, similarities, covariances, correlations,
+        connections among neurons or other user supplied input, and
+        project the concepts or variables corresponding to the rows
+        of that matrix onto coordinates which retain the metric of
+        the input matrix.
+
+        Alternately, you may input a rectangular objects by
+        attributes matrix in which each row represents some object
+        and each column represents some attribute. Cell entries
+        represent the numerical value of the attribute for the
+        corresponding object.
+
+        In this second case, the labels file must contain the names
+        of the endpoints of the attributes following the names of the
+        objects scaled. Only the positive endpoint label should be used.
+        In the following example, several people and a
+        cat are rated according to their height, weight and age:
+
+ SALLY
+ BOB
+ JOE
+ ROSS
+ GEORGE
+ RALPH
+ FELIX
+ ROXANNE
+ TALL
+ HEAVY
+ YOUNG
+
+      The data matrix for this example is as follows:
+
+ (8f10.0)
+ 64.        112.      26.
+ 68.        148.      44.
+ 55.        90.       12.
+ 65.        135.      18.
+ 67.        120.      17.
+ 65.        110.      17.
+ 21.         12.       2.
+ 66.        145.      23.
+
+      Each of the people (and the cat) are rated according to their
+      height in inches, their weight in pounds, and their age in years.
+
+      These labels can be found in \galileo\data\us.lbl and the data
+      can be found in \galileo\data\us.dat.
+
+

@@ -1,0 +1,11 @@
+
+      Each of my neurons tends to lose a proportion of its activation level
+      on each cycle, otherwise everything I see would constantly be on my
+      mind.  My default forgetting rate is .9.  Lowering this number makes
+      me remember longer.  If I remember too long, I'll tend to see everything
+      to be related to everything else.
+
+      Now you need to enter a number between 0 and 1 which will serve as
+      my new decay rate.
+
+

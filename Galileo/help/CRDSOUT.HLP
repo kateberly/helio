@@ -1,0 +1,8 @@
+
+      I need the exact path to a file on which I'll write the coordinates
+      produced in this run. You can use these coordinates for input to
+      other Galileo programs, such as PLOT, ASG, V55 and COMPARE. I'll
+      also write out the labels on this file, but it is not possible to
+      compute standard errors without actual raw data files.
+
+

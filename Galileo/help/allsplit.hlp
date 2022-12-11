@@ -1,0 +1,24 @@
+
+
+
+                              Galileo*ALLSPLIT
+
+
+
+      I'm a general purpose splitting utility. You can just tell me what
+      columns you want to split on, and where you want the split files,
+      and I'll do it. I can split on values or ranges.
+
+      I can read the study.dat file made by ELQM, and so I know where your
+      variables are and can help you during the split run. I can write
+      out a list of the variables, and I can split by variable name as
+      well as by column. I can write out all of a case or any subset of
+      it; you tell me what you want written out. (Some Galileo processors
+      don't want to see anything but paired comparison data in their
+      files; you can get rid of all the other data using this option.)
+
+      It may take a while to master me, but it's well worth it. I'm
+      very versatile.
+
+
+ 

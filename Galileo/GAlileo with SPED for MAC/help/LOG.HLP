@@ -1,0 +1,8 @@
+
+      Unbounded scales often have long, straggly tails with inconvenient
+      statistical properties. Fortunately, their logarithms are usually
+      very well behaved, and the natural log transform is one of the most
+      common in physical science and engineering. If you are troubled by
+      outliers, try the log.  Experiment!
+
+

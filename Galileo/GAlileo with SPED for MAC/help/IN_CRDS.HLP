@@ -1,0 +1,10 @@
+
+
+     V57 will produce a coordinate file containing the coordinates for each
+     data set analyzed.  Enter the name of a file you would like V57
+     to write to.  You may include a path, but keep the whole name under
+     40 characters.  Galileo researchers usually use a .crd extension for
+     coordinate file names.  You may use any extension you like.
+
+
+

@@ -1,0 +1,17 @@
+
+    You can change the concept display by either entering the concept
+    numbers of those concepts you wish displayed or by displaying each
+    concept and changing it's status.  Type L for list to get a list of
+    each concept or type N to enter the number of the concept to be
+    displayed.
+
+    If you choose L for list.  I'll display each concept one at time.
+    concepts marked with an '*' are slated to be displayed.  Pressing
+    the toggle key will turn the concept on or off.  Press F2 to skip
+    a concept and leave it's display status unchanged.  Press F1 to
+    change it's display status.  Press F7 when you are done.
+
+    If you choose N for number, simply enter the number of each concept
+    you wish displayed.  Only those concepts whose numbers are entered
+    will be displayed.  When you are done entering, press F7.
+

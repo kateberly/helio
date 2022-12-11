@@ -1,0 +1,39 @@
+                        Galileo*PLOT
+
+      I read coordinates made by Microgal, V55, or Galnet and plot
+      them graphically on the screen. Only the first three dimensions
+      are plotted. The first dimension is the horizontal axis, the second
+      dimension is the vertical axis, and depth is the third dimension.
+
+      Each concept is represented as a sphere whose size is a function of
+      the uncertainty of measure. The radii of the spheres representing
+      the concepts is one standard error. (Measurement of the uncertainty
+      of location of the concepts depends on a complete measurement of all
+      pairwise distances among the concepts.)
+
+      All Galileo programs, including CATPAC, KIT, ORESEME,
+      MICROGAL and V55  provide complete pair comparison measures.
+      GALNET can also do so, but allows producing ordinary perceptual
+      maps from object-attribute data.  So far, only Microgal and V55
+      are able to calculate the actual errors.
+
+      When standard errors cannot be calculated, radii are defaulted to a
+      convenient number which allows easy visualization, but far
+      underestimates the actual error of measure. (I'll warn you when
+      the errors are missing and I have to use the default radii.)
+
+      I correct for parallel perspective according to distance from the
+      eyepoint, as does the human eye. This means that objects close to
+      the viewer will appear much larger than those far from the viewer.
+
+      I allow a limited ability to interact with the plot. You can rotate
+      the space up, down, left and right any arbitrary number of degrees.
+      This is not as easy as it sounds, and rookies frequently become
+      hopelessly lost after a few rotations. If this happens to you, just
+      leave the program and start again; no harm can be done by
+      experimenting.
+
+      I currently don't support printing, but WordPerfect users can
+      capture the PLOT image using the GRAB utility, and insert it into
+      WordPerfect documents in the standard way.
+

@@ -1,0 +1,5 @@
+Thanks to Catpac and Space, I know where every object 
+lies in space, and I can calculate which objects and 
+combinations of  objects lie closest to your goal. I 
+can use this information to calculate how close any 
+message can take you.

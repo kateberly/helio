@@ -1,0 +1,16 @@
+
+     I need the exact path to the file on which you've written the concept
+     labels (that is, the names of the concepts in the study).  This might
+     be the study.lbl file made by ELQM, or the words file made by CATPAC
+     or ORESEME, or it might just be a file you made with a word processor
+     or editor.  It just consists of the labels, up to 20 characters each,
+     one label per line, as
+
+     GOOD
+     EVIL
+     HITLER
+     ALBERT SCHWEITZER
+     BUGS BUNNY
+     YOURSELF
+
+

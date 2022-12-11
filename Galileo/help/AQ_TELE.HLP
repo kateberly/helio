@@ -1,0 +1,14 @@
+
+      Whenever data are gathered by telephone, Galileo researchers usually
+      keep track of certain information, mainly for quality control purposes.
+      The following are the standard telephone questions:
+
+ Administrator:  Please write the phone number
+                 called   (______)-_____-___________   (cols. 9-18)
+                 The date in YYMMDD format  ___________  (cols. 19-24)
+                 The time in  HHMM  format  ___________  (cols. 25-28)
+                 The time for administration in minutes _______  (cols.29-30)
+
+      You get these standard questions by responding "yes."
+
+

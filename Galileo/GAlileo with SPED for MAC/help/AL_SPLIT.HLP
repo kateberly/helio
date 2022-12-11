@@ -1,0 +1,13 @@
+
+     You can make two kinds of splits, values or ranges.  A split on values
+     means you are going to split on specific responses.  A split on ranges
+     meany you wish to split on responses  within a specfic range or ranges.
+     For example, let's say you coded age between 18 and 65.  A split on
+     values for this variable would allow you split on specfic ages like
+     18, 21, 35, etc.  A split on ranges would allow you split for ranges
+     like 18-21, 22-25, 26-29, etc.
+
+     Enter V if you would like to split on Values, R if you would like to
+     split on ranges.
+
+

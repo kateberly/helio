@@ -1,0 +1,10 @@
+
+     Enter the number of data sets you would like to analyze.  I can analyze
+     one data set separately.  If you specify more than one data set, I'll
+     rotate them to a mainspace or to the previous space as in a time series.
+
+     If you specify more than one data set, I will only be able to produce
+     rotated coordinates.  You'll have to run each data set separately for
+     messages.
+
+

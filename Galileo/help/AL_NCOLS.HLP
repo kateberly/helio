@@ -1,0 +1,9 @@
+
+     I need to know the number of columns that you would like to split on.
+     For example, let's say you are splitting on sex and sex was coded in
+     one column you would enter 1.  If you you split on area-code and
+     area-code was coded in 3 columns you would enter 3.
+
+     You can split on up to 10 columns.
+
+

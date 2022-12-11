@@ -1,0 +1,17 @@
+
+      The Galileo CATS system requires that each study be assigned a
+      separate study directory. Indeed, if there are separate and different
+      questionnaires for different samples, then each questionnaire should
+      be considered a separate "study" and assigned its own study direc-
+      tory.
+
+      Once a directory has been created and assigned to a study, almost
+      no other file handling is ever required. The Galileo CATS system
+      creates files automatically, and each program will place the most
+      important files in the right place.
+
+      To record surveys, I only need to know the name of the study directory.
+      I will then examine the system files on that and ask you for responses
+      relevant to the study you are working with.
+
+

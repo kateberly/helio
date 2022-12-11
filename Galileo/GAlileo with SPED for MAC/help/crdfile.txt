@@ -1,0 +1,2 @@
+After you ran Catpac, you ran Strategy to make coordinates.
+You need to tell me where those coordinates are. 

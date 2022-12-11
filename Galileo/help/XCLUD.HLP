@@ -1,0 +1,7 @@
+
+      When CATPAC or KIT read text, they automatically skip certain words
+      you've decided you don't care to examine. Any word you enter here
+      will be skipped by CATPAC and/or KIT whenever they encounter it from
+      now on.
+
+

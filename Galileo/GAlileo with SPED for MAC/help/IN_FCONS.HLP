@@ -1,0 +1,15 @@
+
+     When you rotate spaces, concepts move to new coordinates reducing the
+     error between the standard space and space being rotated.  When you
+     rotate, it is sometimes desirable to keep certain concepts 'free'.  This
+     means that during rotation these concepts are 'free' to move.  That is,
+     they are NOT rotated.
+
+     Concepts which are the targets of messages are typically designated as
+     free.  The other concepts in the space, once rotated, provide a stable
+     frame of reference against which free concept movement is judged.
+
+     Enter the concept number(s) of the free concepts only if you have
+     reason to believe they have moved.
+
+

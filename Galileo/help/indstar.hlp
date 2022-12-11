@@ -1,0 +1,25 @@
+
+
+
+                            Galileo*Indstar
+
+	
+      Indstar stands for Interactive Neural Detection, Storage and Retrieval.
+	  I'm a self-organizing neural network like CATPAC(we're
+      related). I read a list of lists, and I discover patterns of items 
+	  that tend to be found together on many lists.  If you read me a list 
+	  of grocery lists, I'll discover what items tend to be bought together.
+	  If you read me a list of patients, symptoms, diagnoses, treatments and
+	  outcomes, I can find out what treatments go with what symptoms with
+	  what outcomes. I'm completely general.
+
+      You might think of me as a non-hierarchical clustering system.  I
+      read the word or words you give to me, and I find out what other
+      words go with them; this set of words can be thought of as a cluster
+      or category.  But I don't assign each word into only one category,
+      as does a hierarchical clustering scheme, and a word can belong to
+      many categories for me, as for you.  (Marketers find this helpful
+      when they are trying to develop a product that can exist in, and
+      compete in, several segments at once.)
+
+ 
